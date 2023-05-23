@@ -131,8 +131,6 @@ function createListItem(id, value) {
     editFlag = true;
     editId = element.dataset.id;
     submitBtn.textContent = "edit";
-
-    editLocalStorage(editId, value);
   });
 
   deleteBtn.addEventListener("click", () => {
